@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/petrenamo/ci_cd_lab:latest
+          image: ghcr.io/petrenamo/go-simple-webserver@sha256:0e27c5e9c8f42d23e7750fb88bb33b8b6045e8f5ceadefab2cdfcae4b92ca96e
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
